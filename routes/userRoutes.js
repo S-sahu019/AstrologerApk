@@ -3,7 +3,7 @@ const router = express.Router();
 const jwt = require('jsonwebtoken');
 const User = require('../models/userModel');
 const bcrypt = require('bcrypt');
-const config = require('../config');
+const config = require('../config/config');
 
 // Generate a JWT token for a user
 const generateToken = (user) => {
