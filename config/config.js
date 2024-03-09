@@ -1,6 +1,6 @@
 const config = {
     mongoURI: 'mongodb://localhost/astrology',
-    jwtSecret: 'your_jwt_secret_key',
+    jwtSecret: 'aaefghhjkk',
   };
   
   module.exports = config;
