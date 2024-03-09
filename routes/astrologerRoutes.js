@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const jwt = require('jsonwebtoken');
 const Astrologer = require('../models/astrologerModel');
-const config = require('../config');
+const config = require('../config/config');
 
 // Generate a JWT token for a user
 const generateToken = (user) => {
