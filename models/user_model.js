@@ -57,7 +57,7 @@ userSchema.methods.generateToken = function () {
       },
       config.jwtSecret,
       {
-        expiresIn: '1h',
+        expiresIn: '24h',
       }
     );
   
